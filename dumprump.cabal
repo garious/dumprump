@@ -1,0 +1,19 @@
+name:              dumprump
+version:           0.0.1
+build-type:        Simple
+cabal-version:     >= 1.2
+
+executable objdumprump
+  main-is:         ObjDumpRump.hs
+  ghc-options:     -O2 -Wall
+  build-depends:   base
+                 , attoparsec
+                 , bytestring
+                 , enumerator
+
+executable readelfrump
+  main-is:         ReadElfRump.hs
+  ghc-options:     -O2 -Wall
+  build-depends:   base
+                 , attoparsec
+                 , bytestring
