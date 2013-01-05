@@ -8,7 +8,7 @@ executable objdumprump
   ghc-options:     -O2 -Wall
   build-depends:   base
                  , attoparsec
-                 , bytestring
+                 , bytestring >= 0.10.0.0
                  , enumerator
 
 executable readelfrump
@@ -16,4 +16,4 @@ executable readelfrump
   ghc-options:     -O2 -Wall
   build-depends:   base
                  , attoparsec
-                 , bytestring
+                 , bytestring >= 0.10.0.0
