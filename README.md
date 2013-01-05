@@ -1,6 +1,6 @@
 # Normalizing GCC tools with objrump and elfrump
 
-[![Build Status](https://secure.travis-ci.org/garious/DumpRump.png?branch=master)](http://travis-ci.org/garious/DumpRump)
+[![Build Status](https://secure.travis-ci.org/garious/DumpRump.png)](http://travis-ci.org/garious/DumpRump)
 
 objdumprump, the tail end of objdump
 --------------------------------
